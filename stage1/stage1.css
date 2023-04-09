@@ -1,0 +1,73 @@
+.btn {
+  margin: 1vw;
+  display: inline-block;
+  /* height: 200px;
+  width: 200px; */
+  height: 10vw;
+  width: 10vw;
+  min-width: 150px;
+  min-height: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#back a::before {
+  content: "<< ";
+}
+
+.game,
+h3 {
+  text-align: center;
+}
+
+#start {
+  display: inline-block;
+}
+
+#gameOver {
+  margin: 0;
+  margin-left: 1vw;
+  text-align: center;
+  font-size: 1.5vw;
+  display: none;
+}
+
+@media only screen and (max-width: 1285px) {
+  #gameOver {
+    font-size: 19px;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .btn {
+    min-width: 120px;
+    min-height: 120px;    
+  }
+}

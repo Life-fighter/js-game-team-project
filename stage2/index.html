@@ -1,0 +1,54 @@
+<!-- Yuanbo's game -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Triathlon | Dice Game</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./stage2.css">
+</head>
+<body>
+
+    <div id="main-container">
+
+        <h1>JS Triathlon</h1>
+
+        <p>Click "start" button to roll dice and try to beat the computer. The game allows for three rounds per game, 
+          and players can click "play again" after each round. When final results appears in the top bar, the player 
+          can "reset" button to start over. The goal is to get a higher score than the computer by rolling the dice per game.</p>
+
+        <div id="game">
+
+            <div class="container">
+            <div id="reset"><p>Reset</p></div>
+                <div class="start"><h3>Start</h3></div>
+
+                <div class="dice">
+                  <p>You😉</p>
+                  <img class="img1" src="images/dice0.jpg" />
+                </div>
+
+                <div class="dice">
+                  <p>Computer</p>
+                  <img class="img2" src="images/dice0.jpg" />
+                </div>
+                <div class="again"><h3>Play Again</h3></div>
+              </div>
+
+            <div id="game-scores">
+                <p>Current Score: <span id="game-current-score">0</span></p>
+                <p>Highscore: <span id="game-highscore">0</span</p>
+            </div>
+
+        </div>
+
+        <div id="back"><a href="../">back</a></div>
+
+    </div>
+
+    <script src="stage2.js"> </script>
+
+</body>
+</html>

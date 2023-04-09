@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Triathlon</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+
+    <div id="main-container">
+
+        <h1>JS Triathlon</h1>
+
+        <p>by Aleksejs, Yuanbo, Lucas</p>
+
+        <h2>Select a stage:</h2>
+
+        <div id="stages">
+            <div>
+                <a href="./stage1/"><div class="img-wrapper"><img src="./img/stage1.png" /></div></a>
+                <h3>Simon Game</h3>
+                <p>highscore: <span id="simon-highscore">0</span></p>
+            </div>
+            <div>
+                <a href="./stage2/"><div class="img-wrapper"><img src="./img/stage2.png" /></div></a>
+                <h3>Dice Game</h3>
+                <p>highscore: <span id="dice-highscore">0</span></p>
+            </div>
+            <div>
+                <a href="./stage3/"><div class="img-wrapper"><img src="./img/stage3.png" /></div></a>
+                <h3>X-Count</h3>
+                <p>highscore: <span id="xcount-highscore">0</span></p>
+            </div>
+        </div>
+
+        <div id="score">
+            <p>[ Highscores total ]<br />
+            <span id="total-highscore">0</span></p>
+        </div>
+
+    </div>
+
+    <script src="./homepage.js"></script>
+
+</body>
+</html>

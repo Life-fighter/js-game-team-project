@@ -1,0 +1,42 @@
+<!-- Aleksey's game -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="stage1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="main-container" class="container">
+      <h1 id="level-title">TRIATHLON GAME</h1>
+      <h2>SIMON GAME</h2>
+      <p>REMEMBER THE COLOR PATTERN AND REPEAT IT BY PRESSING THE COLORED BUTTONS. GAME STARTS WITH 1 COLOR AND EACH ROUND 1 COLOR IS ADDED TO THE PATTERN.</p>
+      <button id="start">Start</button>
+      <h2 id="gameOver">GAME OVER! PRESS "START" TO PLAY AGAIN</h2>
+      <div class="game">
+        
+        <div class="row first">
+          <input type="button" id="green" class="btn green" disabled></input>
+          <input type="button" id="red" class="btn red" disabled></input>
+        </div>
+
+        <div class="row second">
+          <input type="button" id="yellow" class="btn yellow" disabled></input>
+          <input type="button" id="blue" class="btn blue" disabled></input>
+        </div>
+      </div>
+      <div class="scores">
+        <h3>CURRENT SCORE: <span id="scoreSimon">0</span></h3>
+        <h3>HIGHSCORE: <span id="highscoreSimon">0</span></h2>
+      </div>
+      <div id="back"><a href="../">back</a></div>
+    </div>
+
+    <script src="./stage1.js"></script>
+  </body>
+</html>

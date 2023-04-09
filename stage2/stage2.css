@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+#reset{
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 500;
+ 
+}
